@@ -1,4 +1,4 @@
-user_id,city,age,sex,followers_count,has_music,has_movies,has_phone,has_religion_info,has_political_info,has_smoking_info,has_alcohol_info,has_language_info,id_degree,avg_clustering,transitivity,degree_centrality,fr_in_same_city,avg_age_diff,fr_of_same_sex
+user_id,city,age,sex,followers_count,has_phone,has_religion_info,has_political_info,has_smoking_info,has_alcohol_info,has_language_info,id_degree,avg_clustering,transitivity,degree_centrality
 411664440,1,29,1,21,1,0,0,1,1,0,83,0.6822654908504339,0.530256361654741,0.2102696500286862
 36414701,1386,0,2,30,1,1,1,0,0,0,273,0.5633240681313461,0.25490285923753664,0.04296676559450282
 349141859,1,17,2,55,1,1,0,1,1,1,715,0.5531345116292737,0.28714342724649955,0.039430402000234406
