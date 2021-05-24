@@ -49,7 +49,7 @@ def calculate_age(bdate: str):
     bdate_list = bdate.split(".")
     if len(bdate_list) != 3:
         return None
-    bday, bmonth, byear = bdate
+    bday, bmonth, byear = bdate_list
     today = datetime.today() 
     return today.year - int(byear) - ((today.month, today.day) < (int(bmonth), int(bday)))
 
