@@ -126,7 +126,6 @@ def create_df_for_person(uid):
     return person_df
 
 def make_graph_for_user(user_id_1, uid2friends):
-    """Создание графа друзей Вконтакте пользователя с user_id."""
     graph = nx.Graph()
     graph.add_node(user_id_1)
     friends_ids = set(uid2friends[user_id_1])
@@ -163,7 +162,6 @@ def get_graph_features(graph_1):
     return graph_info
 
 def start(update, context):
-    """Начинаем общение с ботом"""
     context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
     return ConversationHandler.END
     
@@ -176,7 +174,7 @@ def make_prediction(person_df):
 def deal_with_message(update, context):
     uid = update.message.text
     if not get_user_info(uid):
-        context.bot.send_message(chat_id=update.effective_chat.id, text="Пользователей с таким id не найдено!")
+        context.bot.send_message(chat_id=update.effective_chat.id, text="User with such id is not found!")
         return ConversationHandler.END
     person_df = create_df_for_person(uid)
     pred = make_prediction(person_df)
