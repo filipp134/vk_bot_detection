@@ -5,10 +5,9 @@ import requests
 from datetime import datetime
 from time import time
 
-#AUTHORIZATION_LINK is just for usage if new ACCESS_TOKEN needed.
-AUTHORIZATION_LINK = 'https://oauth.vk.com/authorize?client_id=7781918&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=offline&response_type=token&v=5.52'
+
 BASIC_LINK = 'https://api.vk.com/method/'
-ACCESS_TOKEN = '03b514fe3f199471fc77c727575320360cbd8895d5ac6fe464572df08e2d44b8a2ecb513a6f91184bc3bd'
+ACCESS_TOKEN = ''
 
 #Names of different user fields are given in general in USER_FIELDS list and split into 3 lists separately.
 USER_FIELDS = [
