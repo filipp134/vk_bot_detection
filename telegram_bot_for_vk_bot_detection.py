@@ -15,8 +15,8 @@ import csv
 from statistics import *
 
 BASIC_LINK = 'https://api.vk.com/method/'
-ACCESS_TOKEN = '03b514fe3f199471fc77c727575320360cbd8895d5ac6fe464572df08e2d44b8a2ecb513a6f91184bc3bd'
-TOKEN = '1890770443:AAE1-qjRRt6YA_MA3GRtcORypaclzwR8hnQ'
+ACCESS_TOKEN = ''
+TOKEN = ''
 
 USER_FIELDS = [
     "has_photo", "sex", "bdate", "city", "country", "has_mobile", "counters"
