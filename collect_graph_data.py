@@ -9,7 +9,7 @@ from time import time, sleep
 
 
 BASIC_LINK = 'https://api.vk.com/method/'
-ACCESS_TOKEN = '03b514fe3f199471fc77c727575320360cbd8895d5ac6fe464572df08e2d44b8a2ecb513a6f91184bc3bd'
+ACCESS_TOKEN = ''
 VK_UIDS = "VK_UIDS.csv"
 START_UID = 0
 
