@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import joblib
 import json
-import pandas as pd
 import networkx as nx
 import csv
 from statistics import *
