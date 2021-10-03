@@ -1,4 +1,4 @@
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ParseMode
+from telegram import Update, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler, CallbackContext, \
     ConversationHandler
 import requests
