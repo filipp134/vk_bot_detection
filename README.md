@@ -4,3 +4,4 @@
   Moreover, I have developed a Telegram bot that can make a prediction if a user is a bot or not based on the prediction given by the model built
   according to Random Forest approach. You can use this bot by going through this link: https://t.me/VK_detection_bot
   
+  Due to a large file size, I couldn't publish the dataset ,which contains anonymized graph data with friend connections of 189505 VKontakte users I collected while conducting my project, on Github, so I published it on Zenodo, and it can be accessed here: https://zenodo.org/record/6035966#.YgoKcu5ByZw
