@@ -5,3 +5,5 @@
   according to Random Forest approach. You can use this bot by going through this link: https://t.me/VK_detection_bot
   
   Due to a large file size, I couldn't publish the dataset ,which contains anonymized graph data with friend connections of 189505 VKontakte users I collected while conducting my project, on Github, so I published it on Zenodo, and it can be accessed here: https://zenodo.org/record/6035966#.YgoKcu5ByZw
+  
+  With this project I have advanced to the final stage of the 'Scientists of the Future' science fair, a national stage of ISEF. The finalist certificate can be found here: https://drive.google.com/file/d/1PnEmz7lqOi5LPcs-qbjdp0_OaD3RfiJa/view.
